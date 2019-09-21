@@ -16,7 +16,7 @@ from sqlalchemy import desc
 
 import redis
 import os
-token = os.environ['TELEGRAM_TOKEN']
+token = os.environ['982289200:AAEly1UbsHD6cQINuAnwF9s1QZGLHRMPvno']
 some_api_token = os.environ['SOME_API_TOKEN']
 states = {}
 
