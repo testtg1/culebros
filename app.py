@@ -1,3 +1,4 @@
+#! /usr/bin/env python 
 from flask import Flask
 
 from telebot import TeleBot
@@ -18,11 +19,11 @@ db = SQLAlchemy(app)
 
 kassa = FK()
 
-TOKEN = '841298776:AAEvi6Oe_eRbNiPKYwnMBVGUkn_wxxrETHM'
+TOKEN = '982289200:AAEly1UbsHD6cQINuAnwF9s1QZGLHRMPvno'
 bot = TeleBot(TOKEN)
 
-admins = [435600486, 631997243, 686676371, 647599306, 738551202, 796269232]
+admins = [865473632]
 
-WEBHOOK_URL = f''
-WEBHOOK_LISTEN = ''
-WEBHOOK_PORT = 
+WEBHOOK_URL = f'localhost'
+WEBHOOK_LISTEN = 'localhost'
+WEBHOOK_PORT = '443'
