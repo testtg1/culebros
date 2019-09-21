@@ -24,6 +24,6 @@ bot = TeleBot(TOKEN)
 
 admins = [865473632]
 
-WEBHOOK_URL = f'localhost'
-WEBHOOK_LISTEN = 'localhost'
-WEBHOOK_PORT = '443'
+WEBHOOK_URL = f''
+WEBHOOK_LISTEN = ''
+WEBHOOK_PORT = ''
